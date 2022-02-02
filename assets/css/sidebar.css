@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sidebar {
+    background-color: black;
+    height: 160px;
+    width: 100vw;
+    position: relative;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.close {
+    transform: translate(-0px,-300px);
+}
+
+.fa-times {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #768181;
+}
+.fa-times:hover {
+    cursor: pointer;
+}
+a {
+    padding: 8px 25px;
+    font-size: 30px;
+    text-decoration: none;
+    color: #768181;
+    display: inline-block;
+}
+a:hover {
+    color: white;
+}
+.button {
+    height: 100px;
+    width: 100px;
+    background-color: hotpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-playstation {
+    color: black;
+}
+.fa-playstation:hover {
+    cursor: pointer;
+    color: darkblue;
+}
